@@ -1,0 +1,93 @@
+data_dt,periodo,dia_semana,cenario,media_faturamento,desvio_faturamento,quantidade_dias,media_periodo,faturamento_projetado,metodo,limite_inferior,limite_superior
+2028-12-15,"Antes do Natal
+15/12 a 24/12",sexta-feira,Efetivado,1046,0,1,2097.3333333333335,1046,Média histórica por período e dia da semana,1046,1046
+2028-12-15,"Antes do Natal
+15/12 a 24/12",sexta-feira,Efetivado + Pendente,1046,0,1,2097.3333333333335,1046,Média histórica por período e dia da semana,1046,1046
+2028-12-16,"Antes do Natal
+15/12 a 24/12",sábado,Efetivado,1165,0,1,2097.3333333333335,1165,Média histórica por período e dia da semana,1165,1165
+2028-12-16,"Antes do Natal
+15/12 a 24/12",sábado,Efetivado + Pendente,1165,0,1,2097.3333333333335,1165,Média histórica por período e dia da semana,1165,1165
+2028-12-17,"Antes do Natal
+15/12 a 24/12",domingo,Efetivado,100,0,1,2097.3333333333335,100,Média histórica por período e dia da semana,100,100
+2028-12-17,"Antes do Natal
+15/12 a 24/12",domingo,Efetivado + Pendente,100,0,1,2097.3333333333335,100,Média histórica por período e dia da semana,100,100
+2028-12-18,"Antes do Natal
+15/12 a 24/12",segunda-feira,Efetivado,NA,NA,NA,2097.3333333333335,2097.3333333333335,Média do período: não havia dia da semana equivalente,NA,NA
+2028-12-18,"Antes do Natal
+15/12 a 24/12",segunda-feira,Efetivado + Pendente,NA,NA,NA,2097.3333333333335,2097.3333333333335,Média do período: não havia dia da semana equivalente,NA,NA
+2028-12-19,"Antes do Natal
+15/12 a 24/12",terça-feira,Efetivado,2153,229.1025971044414,2,2097.3333333333335,2153,Média histórica por período e dia da semana,1923.8974028955586,2382.1025971044414
+2028-12-19,"Antes do Natal
+15/12 a 24/12",terça-feira,Efetivado + Pendente,2153,229.1025971044414,2,2097.3333333333335,2153,Média histórica por período e dia da semana,1923.8974028955586,2382.1025971044414
+2028-12-20,"Antes do Natal
+15/12 a 24/12",quarta-feira,Efetivado,3887,1349.1597385039327,2,2097.3333333333335,3887,Média histórica por período e dia da semana,2537.8402614960673,5236.159738503933
+2028-12-20,"Antes do Natal
+15/12 a 24/12",quarta-feira,Efetivado + Pendente,3887,1349.1597385039327,2,2097.3333333333335,3887,Média histórica por período e dia da semana,2537.8402614960673,5236.159738503933
+2028-12-21,"Antes do Natal
+15/12 a 24/12",quinta-feira,Efetivado,2242.5,546.5935418572012,2,2097.3333333333335,2242.5,Média histórica por período e dia da semana,1695.9064581427988,2789.093541857201
+2028-12-21,"Antes do Natal
+15/12 a 24/12",quinta-feira,Efetivado + Pendente,2242.5,546.5935418572012,2,2097.3333333333335,2242.5,Média histórica por período e dia da semana,1695.9064581427988,2789.093541857201
+2028-12-22,"Antes do Natal
+15/12 a 24/12",sexta-feira,Efetivado,1046,0,1,2097.3333333333335,1046,Média histórica por período e dia da semana,1046,1046
+2028-12-22,"Antes do Natal
+15/12 a 24/12",sexta-feira,Efetivado + Pendente,1046,0,1,2097.3333333333335,1046,Média histórica por período e dia da semana,1046,1046
+2028-12-23,"Antes do Natal
+15/12 a 24/12",sábado,Efetivado,1165,0,1,2097.3333333333335,1165,Média histórica por período e dia da semana,1165,1165
+2028-12-23,"Antes do Natal
+15/12 a 24/12",sábado,Efetivado + Pendente,1165,0,1,2097.3333333333335,1165,Média histórica por período e dia da semana,1165,1165
+2028-12-24,"Antes do Natal
+15/12 a 24/12",domingo,Efetivado,100,0,1,2097.3333333333335,100,Média histórica por período e dia da semana,100,100
+2028-12-24,"Antes do Natal
+15/12 a 24/12",domingo,Efetivado + Pendente,100,0,1,2097.3333333333335,100,Média histórica por período e dia da semana,100,100
+2028-12-26,"Entre Natal e Ano Novo
+26/12 a 31/12",terça-feira,Efetivado,1103,0,1,1171.8,1103,Média histórica por período e dia da semana,1103,1103
+2028-12-26,"Entre Natal e Ano Novo
+26/12 a 31/12",terça-feira,Efetivado + Pendente,1103,0,1,1171.8,1103,Média histórica por período e dia da semana,1103,1103
+2028-12-27,"Entre Natal e Ano Novo
+26/12 a 31/12",quarta-feira,Efetivado,3183,0,1,1171.8,3183,Média histórica por período e dia da semana,3183,3183
+2028-12-27,"Entre Natal e Ano Novo
+26/12 a 31/12",quarta-feira,Efetivado + Pendente,3183,0,1,1171.8,3183,Média histórica por período e dia da semana,3183,3183
+2028-12-28,"Entre Natal e Ano Novo
+26/12 a 31/12",quinta-feira,Efetivado,140,0,1,1171.8,140,Média histórica por período e dia da semana,140,140
+2028-12-28,"Entre Natal e Ano Novo
+26/12 a 31/12",quinta-feira,Efetivado + Pendente,140,0,1,1171.8,140,Média histórica por período e dia da semana,140,140
+2028-12-29,"Entre Natal e Ano Novo
+26/12 a 31/12",sexta-feira,Efetivado,NA,NA,NA,1171.8,1171.8,Média do período: não havia dia da semana equivalente,NA,NA
+2028-12-29,"Entre Natal e Ano Novo
+26/12 a 31/12",sexta-feira,Efetivado + Pendente,NA,NA,NA,1171.8,1171.8,Média do período: não havia dia da semana equivalente,NA,NA
+2028-12-30,"Entre Natal e Ano Novo
+26/12 a 31/12",sábado,Efetivado,1418,0,1,1171.8,1418,Média histórica por período e dia da semana,1418,1418
+2028-12-30,"Entre Natal e Ano Novo
+26/12 a 31/12",sábado,Efetivado + Pendente,1418,0,1,1171.8,1418,Média histórica por período e dia da semana,1418,1418
+2028-12-31,"Entre Natal e Ano Novo
+26/12 a 31/12",domingo,Efetivado,15,0,1,1171.8,15,Média histórica por período e dia da semana,15,15
+2028-12-31,"Entre Natal e Ano Novo
+26/12 a 31/12",domingo,Efetivado + Pendente,15,0,1,1171.8,15,Média histórica por período e dia da semana,15,15
+2029-01-01,"Ano Novo e primeiros dias
+01/01 a 07/01",segunda-feira,Efetivado,NA,NA,NA,1683.4,1683.4,Média do período: não havia dia da semana equivalente,NA,NA
+2029-01-01,"Ano Novo e primeiros dias
+01/01 a 07/01",segunda-feira,Efetivado + Pendente,NA,NA,NA,1683.4,1683.4,Média do período: não havia dia da semana equivalente,NA,NA
+2029-01-02,"Ano Novo e primeiros dias
+01/01 a 07/01",terça-feira,Efetivado,1768,0,1,1683.4,1768,Média histórica por período e dia da semana,1768,1768
+2029-01-02,"Ano Novo e primeiros dias
+01/01 a 07/01",terça-feira,Efetivado + Pendente,1768,0,1,1683.4,1768,Média histórica por período e dia da semana,1768,1768
+2029-01-03,"Ano Novo e primeiros dias
+01/01 a 07/01",quarta-feira,Efetivado,2891,0,1,1683.4,2891,Média histórica por período e dia da semana,2891,2891
+2029-01-03,"Ano Novo e primeiros dias
+01/01 a 07/01",quarta-feira,Efetivado + Pendente,2891,0,1,1683.4,2891,Média histórica por período e dia da semana,2891,2891
+2029-01-04,"Ano Novo e primeiros dias
+01/01 a 07/01",quinta-feira,Efetivado,3572,0,1,1683.4,3572,Média histórica por período e dia da semana,3572,3572
+2029-01-04,"Ano Novo e primeiros dias
+01/01 a 07/01",quinta-feira,Efetivado + Pendente,3572,0,1,1683.4,3572,Média histórica por período e dia da semana,3572,3572
+2029-01-05,"Ano Novo e primeiros dias
+01/01 a 07/01",sexta-feira,Efetivado,NA,NA,NA,1683.4,1683.4,Média do período: não havia dia da semana equivalente,NA,NA
+2029-01-05,"Ano Novo e primeiros dias
+01/01 a 07/01",sexta-feira,Efetivado + Pendente,NA,NA,NA,1683.4,1683.4,Média do período: não havia dia da semana equivalente,NA,NA
+2029-01-06,"Ano Novo e primeiros dias
+01/01 a 07/01",sábado,Efetivado,144,0,1,1683.4,144,Média histórica por período e dia da semana,144,144
+2029-01-06,"Ano Novo e primeiros dias
+01/01 a 07/01",sábado,Efetivado + Pendente,144,0,1,1683.4,144,Média histórica por período e dia da semana,144,144
+2029-01-07,"Ano Novo e primeiros dias
+01/01 a 07/01",domingo,Efetivado,42,0,1,1683.4,42,Média histórica por período e dia da semana,42,42
+2029-01-07,"Ano Novo e primeiros dias
+01/01 a 07/01",domingo,Efetivado + Pendente,42,0,1,1683.4,42,Média histórica por período e dia da semana,42,42

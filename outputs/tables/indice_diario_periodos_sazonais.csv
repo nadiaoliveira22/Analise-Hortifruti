@@ -1,0 +1,77 @@
+data_dt,periodo_sazonal,dia_semana,cenario,indice_vendas
+2026-12-15,"Sazonal A
+15/12 a 24/12",terça-feira,Efetivado,98.7
+2026-12-15,"Sazonal A
+15/12 a 24/12",terça-feira,Efetivado + Pendente,98.7
+2026-12-16,"Sazonal A
+15/12 a 24/12",quarta-feira,Efetivado,145.3
+2026-12-16,"Sazonal A
+15/12 a 24/12",quarta-feira,Efetivado + Pendente,145.3
+2026-12-17,"Sazonal A
+15/12 a 24/12",quinta-feira,Efetivado,130.3
+2026-12-17,"Sazonal A
+15/12 a 24/12",quinta-feira,Efetivado + Pendente,130.3
+2026-12-18,"Sazonal A
+15/12 a 24/12",sexta-feira,Efetivado,51.9
+2026-12-18,"Sazonal A
+15/12 a 24/12",sexta-feira,Efetivado + Pendente,51.9
+2026-12-19,"Sazonal A
+15/12 a 24/12",sábado,Efetivado,57.8
+2026-12-19,"Sazonal A
+15/12 a 24/12",sábado,Efetivado + Pendente,57.8
+2026-12-20,"Sazonal A
+15/12 a 24/12",domingo,Efetivado,4.9
+2026-12-20,"Sazonal A
+15/12 a 24/12",domingo,Efetivado + Pendente,4.9
+2026-12-22,"Sazonal A
+15/12 a 24/12",terça-feira,Efetivado,114.7
+2026-12-22,"Sazonal A
+15/12 a 24/12",terça-feira,Efetivado + Pendente,114.7
+2026-12-23,"Sazonal A
+15/12 a 24/12",quarta-feira,Efetivado,239.9
+2026-12-23,"Sazonal A
+15/12 a 24/12",quarta-feira,Efetivado + Pendente,239.9
+2026-12-24,"Sazonal A
+15/12 a 24/12",quinta-feira,Efetivado,92
+2026-12-24,"Sazonal A
+15/12 a 24/12",quinta-feira,Efetivado + Pendente,92
+2026-12-26,"Sazonal B
+26/12 a 31/12",sábado,Efetivado,70.3
+2026-12-26,"Sazonal B
+26/12 a 31/12",sábado,Efetivado + Pendente,70.3
+2026-12-27,"Sazonal B
+26/12 a 31/12",domingo,Efetivado,0.7
+2026-12-27,"Sazonal B
+26/12 a 31/12",domingo,Efetivado + Pendente,0.7
+2026-12-29,"Sazonal B
+26/12 a 31/12",terça-feira,Efetivado,54.6
+2026-12-29,"Sazonal B
+26/12 a 31/12",terça-feira,Efetivado + Pendente,54.6
+2026-12-30,"Sazonal B
+26/12 a 31/12",quarta-feira,Efetivado,157.7
+2026-12-30,"Sazonal B
+26/12 a 31/12",quarta-feira,Efetivado + Pendente,157.7
+2026-12-31,"Sazonal B
+26/12 a 31/12",quinta-feira,Efetivado,6.9
+2026-12-31,"Sazonal B
+26/12 a 31/12",quinta-feira,Efetivado + Pendente,6.9
+2027-01-02,"Sazonal C
+01/01 a 07/01",sábado,Efetivado,7.1
+2027-01-02,"Sazonal C
+01/01 a 07/01",sábado,Efetivado + Pendente,7.1
+2027-01-03,"Sazonal C
+01/01 a 07/01",domingo,Efetivado,2.1
+2027-01-03,"Sazonal C
+01/01 a 07/01",domingo,Efetivado + Pendente,2.1
+2027-01-05,"Sazonal C
+01/01 a 07/01",terça-feira,Efetivado,87.6
+2027-01-05,"Sazonal C
+01/01 a 07/01",terça-feira,Efetivado + Pendente,87.6
+2027-01-06,"Sazonal C
+01/01 a 07/01",quarta-feira,Efetivado,143.3
+2027-01-06,"Sazonal C
+01/01 a 07/01",quarta-feira,Efetivado + Pendente,143.3
+2027-01-07,"Sazonal C
+01/01 a 07/01",quinta-feira,Efetivado,177.1
+2027-01-07,"Sazonal C
+01/01 a 07/01",quinta-feira,Efetivado + Pendente,177.1

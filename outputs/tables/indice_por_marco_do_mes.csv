@@ -1,0 +1,9 @@
+cenario,marco_do_mes,indice_medio,dias_no_periodo
+Efetivado,Inicio do mes,96.08867924528302,53
+Efetivado,Outros dias,98.90111731843575,179
+Efetivado,Perto do dia 12,105.86216216216216,74
+Efetivado,Quinzena (dia 15),96.95,10
+Efetivado + Pendente,Inicio do mes,96.08867924528302,53
+Efetivado + Pendente,Outros dias,98.90111731843575,179
+Efetivado + Pendente,Perto do dia 12,105.86216216216216,74
+Efetivado + Pendente,Quinzena (dia 15),96.95,10

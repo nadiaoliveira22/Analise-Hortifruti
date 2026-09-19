@@ -1,0 +1,13 @@
+cenario,periodo_sazonal,indice_medio,indice_acumulado,dias_analisados,maior_indice_diario
+Efetivado,"Sazonal A
+15/12 a 24/12",103.94444444444444,935.5,9,239.9
+Efetivado,"Sazonal B
+26/12 a 31/12",58.04,290.2,5,157.7
+Efetivado,"Sazonal C
+01/01 a 07/01",83.44,417.2,5,177.1
+Efetivado + Pendente,"Sazonal A
+15/12 a 24/12",103.94444444444444,935.5,9,239.9
+Efetivado + Pendente,"Sazonal B
+26/12 a 31/12",58.04,290.2,5,157.7
+Efetivado + Pendente,"Sazonal C
+01/01 a 07/01",83.44,417.2,5,177.1

@@ -2,35 +2,23 @@ from pathlib import Path
 import csv
 import re
 
-
-# 1. CAMINHOS DO PROJETO
-
 RAIZ_PROJETO = Path(__file__).resolve().parents[1]
-
 PASTA_PRIVADA = RAIZ_PROJETO / "data" / "private"
 
 ARQUIVO_ENTRADA = PASTA_PRIVADA / "movimentos_caixa.TXT"
 ARQUIVO_SAIDA = PASTA_PRIVADA / "vendas_caixa.csv"
 
-PASTA_PRIVADA.mkdir(
-    parents=True,
-    exist_ok=True
-)
+PASTA_PRIVADA.mkdir(parents=True, exist_ok=True)
 
 print("\n========== CONVERSOR TXT PARA CSV ==========")
-print(f"Pasta privada: {PASTA_PRIVADA}")
 print(f"Arquivo de entrada: {ARQUIVO_ENTRADA}")
 print(f"Arquivo de saída: {ARQUIVO_SAIDA}")
 
 if not ARQUIVO_ENTRADA.exists():
     raise FileNotFoundError(
-        f"\nArquivo TXT não encontrado: {ARQUIVO_ENTRADA}\n"
-        "Confira se o nome do arquivo é movimentos_caixa.TXT "
-        "e se ele está dentro de data/private/."
+        f"Arquivo TXT não encontrado: {ARQUIVO_ENTRADA}\n"
+        "Confira o nome e a localização do arquivo."
     )
-
-
-# 2. PADRÕES DO ARQUIVO TXT
 
 PADRAO_DIA = re.compile(
     r"^Dia:\s*(?P<data>\d{2}/\d{2}/\d{2})\s*$"
@@ -43,20 +31,8 @@ PADRAO_MOVIMENTO = re.compile(
     r"(?P<valor>\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d+\.\d{2})\s*$"
 )
 
-# 3. FUNÇÕES AUXILIARES
 
 def converter_valor(valor_texto, sinal):
-    """
-    Converte valor brasileiro em número decimal.
-
-    Exemplos:
-    14,10      -> 14.10
-    1.234,56   -> 1234.56
-    14.10      -> 14.10
-
-    O sinal + ou - vem em uma coluna própria do TXT.
-    """
-
     valor_texto = valor_texto.strip()
 
     if "," in valor_texto:
@@ -68,19 +44,10 @@ def converter_valor(valor_texto, sinal):
     else:
         valor = float(valor_texto)
 
-    if sinal == "-":
-        return -valor
-
-    return valor
+    return -valor if sinal == "-" else valor
 
 
 def classificar_tipo(historico):
-    """
-    Classifica cada movimento pelo texto do histórico.
-    A ordem importa: venda pendente deve ser identificada
-    antes de venda normal.
-    """
-
     texto = str(historico).strip().lower()
 
     if "saldo anterior" in texto:
@@ -104,15 +71,10 @@ def classificar_tipo(historico):
     return "outro"
 
 
-# 4. CONVERSÃO TXT -> CSV
-
 data_atual = None
-
 linhas_lidas = 0
-linhas_convertidas = 0
-linhas_sem_data = 0
+movimentos_convertidos = 0
 linhas_ignoradas = 0
-
 exemplos_ignorados = []
 
 with open(
@@ -129,13 +91,7 @@ with open(
 
     escritor = csv.DictWriter(
         saida,
-        fieldnames=[
-            "data",
-            "hora",
-            "historico",
-            "tipo",
-            "valor"
-        ]
+        fieldnames=["data", "hora", "historico", "tipo", "valor"]
     )
 
     escritor.writeheader()
@@ -158,42 +114,37 @@ with open(
         if not resultado_movimento:
             linhas_ignoradas += 1
 
-            if len(exemplos_ignorados) < 8:
+            if len(exemplos_ignorados) < 5:
                 exemplos_ignorados.append(linha)
 
             continue
 
         if data_atual is None:
-            linhas_sem_data += 1
             continue
 
         registro = resultado_movimento.groupdict()
-
         historico = registro["historico"].strip()
-        tipo = classificar_tipo(historico)
-        valor = converter_valor(
-            registro["valor"],
-            registro["sinal"]
-        )
 
         escritor.writerow(
             {
                 "data": data_atual,
                 "hora": registro["hora"],
                 "historico": historico,
-                "tipo": tipo,
-                "valor": valor
+                "tipo": classificar_tipo(historico),
+                "valor": converter_valor(
+                    registro["valor"],
+                    registro["sinal"]
+                )
             }
         )
 
-        linhas_convertidas += 1
-# 5. RESULTADO FINAL
+        movimentos_convertidos += 1
+
 print("\n========== CONVERSÃO CONCLUÍDA ==========")
 print(f"Linhas lidas: {linhas_lidas}")
-print(f"Movimentos convertidos: {linhas_convertidas}")
-print(f"Movimentos sem data: {linhas_sem_data}")
+print(f"Movimentos convertidos: {movimentos_convertidos}")
 print(f"Linhas ignoradas: {linhas_ignoradas}")
-print(f"CSV privado criado em:\n{ARQUIVO_SAIDA}")
+print(f"CSV privado criado em: {ARQUIVO_SAIDA}")
 
 if exemplos_ignorados:
     print("\nExemplos de linhas ignoradas:")
@@ -201,7 +152,7 @@ if exemplos_ignorados:
         print(f"- {exemplo}")
 
 print("\nPróxima etapa:")
-print("python scripts/01_anonimizar_base.py")
+print("python scripts/01_anonimizar_por_indice.py")
+print("\nNão publique data/private/ no GitHub.")
 
-print("\nIMPORTANTE:")
-print("Não publique a pasta data/private/ no GitHub.")
+#python scripts/00_converter_txt_para_csv.py

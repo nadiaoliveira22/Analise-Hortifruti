@@ -1,0 +1,11 @@
+cenario,classificacao,faturamento_medio,faturamento_total,dias_no_periodo
+Efetivado,Dia seguinte ao feriado,2772.3333333333335,8317,3
+Efetivado,Dia util comum,2420.535087719298,551882,228
+Efetivado,Feriado nacional,14,14,1
+Efetivado,Fim de semana sem feriado,922.8888888888889,74754,81
+Efetivado,Vespera de feriado,865.3333333333334,2596,3
+Efetivado + Pendente,Dia seguinte ao feriado,2772.3333333333335,8317,3
+Efetivado + Pendente,Dia util comum,2420.535087719298,551882,228
+Efetivado + Pendente,Feriado nacional,14,14,1
+Efetivado + Pendente,Fim de semana sem feriado,922.8888888888889,74754,81
+Efetivado + Pendente,Vespera de feriado,865.3333333333334,2596,3

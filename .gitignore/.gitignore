@@ -1,22 +1,22 @@
-```gitignore
+# Dados originais e detalhados da loja: nunca subir para GitHub
+data/private/
+
 # R e RStudio
 .Rhistory
 .RData
 .Ruserdata
 .Rproj.user/
-# Sistema operacional
-.DS_Store
-Thumbs.db
-# Dados privados ou não anonimizados
-data/raw/
-data/processed/vendas_caixa.csv
-# Arquivos temporários
-*.log
-*.tmp
+
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-# Arquivos locais do VS Code
-.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp

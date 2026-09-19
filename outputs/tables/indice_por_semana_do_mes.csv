@@ -1,0 +1,9 @@
+cenario,semana_mes,indice_medio,dias_no_periodo
+Efetivado,1a semana (dias 1-7),96.70133333333334,75
+Efetivado,2a semana (dias 8-14),105.86216216216216,74
+Efetivado,3a semana (dias 15-21),98.50833333333334,72
+Efetivado,4a/5a semana (dias 22-31),99.16105263157894,95
+Efetivado + Pendente,1a semana (dias 1-7),96.70133333333334,75
+Efetivado + Pendente,2a semana (dias 8-14),105.86216216216216,74
+Efetivado + Pendente,3a semana (dias 15-21),98.50833333333334,72
+Efetivado + Pendente,4a/5a semana (dias 22-31),99.16105263157894,95

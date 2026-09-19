@@ -1,0 +1,9 @@
+cenario,semana_mes,faturamento_total,dias_no_periodo,faturamento_medio_dia
+Efetivado,1a semana (dias 1-7),146336,75,1951.1466666666668
+Efetivado,2a semana (dias 8-14),158058,74,2135.9189189189187
+Efetivado,3a semana (dias 15-21),143101,72,1987.513888888889
+Efetivado,4a/5a semana (dias 22-31),190068,95,2000.7157894736843
+Efetivado + Pendente,1a semana (dias 1-7),146336,75,1951.1466666666668
+Efetivado + Pendente,2a semana (dias 8-14),158058,74,2135.9189189189187
+Efetivado + Pendente,3a semana (dias 15-21),143101,72,1987.513888888889
+Efetivado + Pendente,4a/5a semana (dias 22-31),190068,95,2000.7157894736843

@@ -1,0 +1,11 @@
+cenario,classificacao,indice_medio,dias_no_periodo
+Efetivado,Feriado,0.7,1
+Efetivado,Vespera de feriado,42.9,3
+Efetivado,Dia seguinte ao feriado,137.4,3
+Efetivado,Fim de semana,45.74074074074074,81
+Efetivado,Dia util comum,119.96798245614035,228
+Efetivado + Pendente,Feriado,0.7,1
+Efetivado + Pendente,Vespera de feriado,42.9,3
+Efetivado + Pendente,Dia seguinte ao feriado,137.4,3
+Efetivado + Pendente,Fim de semana,45.74074074074074,81
+Efetivado + Pendente,Dia util comum,119.96798245614035,228

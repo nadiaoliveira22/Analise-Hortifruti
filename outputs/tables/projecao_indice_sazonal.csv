@@ -1,0 +1,93 @@
+data_dt,periodo_sazonal,dia_semana,cenario,indice_projetado,metodo
+2028-12-15,"Sazonal A
+15/12 a 24/12",sexta-feira,Efetivado,51.9,Média por período e dia da semana
+2028-12-15,"Sazonal A
+15/12 a 24/12",sexta-feira,Efetivado + Pendente,51.9,Média por período e dia da semana
+2028-12-16,"Sazonal A
+15/12 a 24/12",sábado,Efetivado,57.8,Média por período e dia da semana
+2028-12-16,"Sazonal A
+15/12 a 24/12",sábado,Efetivado + Pendente,57.8,Média por período e dia da semana
+2028-12-17,"Sazonal A
+15/12 a 24/12",domingo,Efetivado,4.9,Média por período e dia da semana
+2028-12-17,"Sazonal A
+15/12 a 24/12",domingo,Efetivado + Pendente,4.9,Média por período e dia da semana
+2028-12-18,"Sazonal A
+15/12 a 24/12",segunda-feira,Efetivado,103.94444444444444,Média do período
+2028-12-18,"Sazonal A
+15/12 a 24/12",segunda-feira,Efetivado + Pendente,103.94444444444444,Média do período
+2028-12-19,"Sazonal A
+15/12 a 24/12",terça-feira,Efetivado,106.7,Média por período e dia da semana
+2028-12-19,"Sazonal A
+15/12 a 24/12",terça-feira,Efetivado + Pendente,106.7,Média por período e dia da semana
+2028-12-20,"Sazonal A
+15/12 a 24/12",quarta-feira,Efetivado,192.60000000000002,Média por período e dia da semana
+2028-12-20,"Sazonal A
+15/12 a 24/12",quarta-feira,Efetivado + Pendente,192.60000000000002,Média por período e dia da semana
+2028-12-21,"Sazonal A
+15/12 a 24/12",quinta-feira,Efetivado,111.15,Média por período e dia da semana
+2028-12-21,"Sazonal A
+15/12 a 24/12",quinta-feira,Efetivado + Pendente,111.15,Média por período e dia da semana
+2028-12-22,"Sazonal A
+15/12 a 24/12",sexta-feira,Efetivado,51.9,Média por período e dia da semana
+2028-12-22,"Sazonal A
+15/12 a 24/12",sexta-feira,Efetivado + Pendente,51.9,Média por período e dia da semana
+2028-12-23,"Sazonal A
+15/12 a 24/12",sábado,Efetivado,57.8,Média por período e dia da semana
+2028-12-23,"Sazonal A
+15/12 a 24/12",sábado,Efetivado + Pendente,57.8,Média por período e dia da semana
+2028-12-24,"Sazonal A
+15/12 a 24/12",domingo,Efetivado,4.9,Média por período e dia da semana
+2028-12-24,"Sazonal A
+15/12 a 24/12",domingo,Efetivado + Pendente,4.9,Média por período e dia da semana
+2028-12-26,"Sazonal B
+26/12 a 31/12",terça-feira,Efetivado,54.6,Média por período e dia da semana
+2028-12-26,"Sazonal B
+26/12 a 31/12",terça-feira,Efetivado + Pendente,54.6,Média por período e dia da semana
+2028-12-27,"Sazonal B
+26/12 a 31/12",quarta-feira,Efetivado,157.7,Média por período e dia da semana
+2028-12-27,"Sazonal B
+26/12 a 31/12",quarta-feira,Efetivado + Pendente,157.7,Média por período e dia da semana
+2028-12-28,"Sazonal B
+26/12 a 31/12",quinta-feira,Efetivado,6.9,Média por período e dia da semana
+2028-12-28,"Sazonal B
+26/12 a 31/12",quinta-feira,Efetivado + Pendente,6.9,Média por período e dia da semana
+2028-12-29,"Sazonal B
+26/12 a 31/12",sexta-feira,Efetivado,58.04,Média do período
+2028-12-29,"Sazonal B
+26/12 a 31/12",sexta-feira,Efetivado + Pendente,58.04,Média do período
+2028-12-30,"Sazonal B
+26/12 a 31/12",sábado,Efetivado,70.3,Média por período e dia da semana
+2028-12-30,"Sazonal B
+26/12 a 31/12",sábado,Efetivado + Pendente,70.3,Média por período e dia da semana
+2028-12-31,"Sazonal B
+26/12 a 31/12",domingo,Efetivado,0.7,Média por período e dia da semana
+2028-12-31,"Sazonal B
+26/12 a 31/12",domingo,Efetivado + Pendente,0.7,Média por período e dia da semana
+2029-01-01,"Sazonal C
+01/01 a 07/01",segunda-feira,Efetivado,83.44,Média do período
+2029-01-01,"Sazonal C
+01/01 a 07/01",segunda-feira,Efetivado + Pendente,83.44,Média do período
+2029-01-02,"Sazonal C
+01/01 a 07/01",terça-feira,Efetivado,87.6,Média por período e dia da semana
+2029-01-02,"Sazonal C
+01/01 a 07/01",terça-feira,Efetivado + Pendente,87.6,Média por período e dia da semana
+2029-01-03,"Sazonal C
+01/01 a 07/01",quarta-feira,Efetivado,143.3,Média por período e dia da semana
+2029-01-03,"Sazonal C
+01/01 a 07/01",quarta-feira,Efetivado + Pendente,143.3,Média por período e dia da semana
+2029-01-04,"Sazonal C
+01/01 a 07/01",quinta-feira,Efetivado,177.1,Média por período e dia da semana
+2029-01-04,"Sazonal C
+01/01 a 07/01",quinta-feira,Efetivado + Pendente,177.1,Média por período e dia da semana
+2029-01-05,"Sazonal C
+01/01 a 07/01",sexta-feira,Efetivado,83.44,Média do período
+2029-01-05,"Sazonal C
+01/01 a 07/01",sexta-feira,Efetivado + Pendente,83.44,Média do período
+2029-01-06,"Sazonal C
+01/01 a 07/01",sábado,Efetivado,7.1,Média por período e dia da semana
+2029-01-06,"Sazonal C
+01/01 a 07/01",sábado,Efetivado + Pendente,7.1,Média por período e dia da semana
+2029-01-07,"Sazonal C
+01/01 a 07/01",domingo,Efetivado,2.1,Média por período e dia da semana
+2029-01-07,"Sazonal C
+01/01 a 07/01",domingo,Efetivado + Pendente,2.1,Média por período e dia da semana
