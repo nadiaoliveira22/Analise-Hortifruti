@@ -203,38 +203,23 @@ python scripts/01_anonimizar_por_indice.py
 
 ## Resultados visuais
 
-> ![Índice por semana do mês](outputs/figures/indice_por_semana_do_mes.png)
-> ![Projeção Fim de Ano](outputs/figures/indice_por_semana_do_mes.png)
-
 ### Índice por semana do mês
 
-```text
-outputs/figures/indice_por_semana_do_mes.png
-```
+> ![Índice por semana do mês](outputs/figures/indice_por_semana_do_mes.png)
 
 ### Índice por marco do mês
 
-```text
-outputs/figures/indice_por_marco_do_mes.png
-```
+> ![Índice por marco do mês](outputs/figures/indice_por_marco_do_mes.png)
 
 ### Índice por tipo de dia
-
-```text
-outputs/figures/indice_por_tipo_de_dia.png
-```
+> ![Índice por tipo de dia](outputs/figures/indice_por_tipo_de_dia.png)
 
 ### Tendência mensal
-
-```text
-outputs/figures/indice_por_mes.png
-```
+> ![Tendência mensal](outputs/figures/indice_por_mes.png)
 
 ### Projeção sazonal relativa
 
-```text
-outputs/figures/projecao_indice_sazonal.png
-```
+> ![Projeção Fim de Ano](outputs/figures/indice_por_semana_do_mes.png)
 
 ---
 
