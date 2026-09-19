@@ -203,7 +203,8 @@ python scripts/01_anonimizar_por_indice.py
 
 ## Resultados visuais
 
-> Os gráficos abaixo serão exibidos quando os outputs forem gerados e adicionados ao repositório.
+> ![Índice por semana do mês](outputs/figures/indice_por_semana_do_mes.png)
+> ![Projeção Fim de Ano](outputs/figures/indice_por_semana_do_mes.png)
 
 ### Índice por semana do mês
 
