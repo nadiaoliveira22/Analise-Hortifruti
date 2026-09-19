@@ -1,0 +1,23 @@
+@'
+# Dados privados da loja
+data/private/
+
+# Versão agregada com valores financeiros — não publicar
+data/processed/vendas_diarias_anonimizadas.csv
+
+# Arquivos do R/RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Encoding utf8 .gitignore
