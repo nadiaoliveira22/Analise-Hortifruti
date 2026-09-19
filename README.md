@@ -233,18 +233,6 @@ python scripts/01_anonimizar_por_indice.py
 
 ---
 
-## Próximos passos
-
-- [ ] Separar os canais: loja física, WhatsApp, iFood e entrega própria.
-- [ ] Incluir quantidade vendida por quilo ou unidade.
-- [ ] Registrar ruptura de estoque e perdas por perecibilidade.
-- [ ] Criar análise por categoria e produto.
-- [ ] Adicionar dados de promoções, clima e eventos locais.
-- [ ] Construir um dashboard interativo em Power BI ou Shiny.
-- [ ] Automatizar a atualização das tabelas e gráficos.
-
----
-
 ## Aprendizados demonstrados
 
 Este projeto demonstra competências em:
