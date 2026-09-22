@@ -29,7 +29,6 @@ melhor_marco <- marco %>%
   filter(cenario == "Efetivado") %>%
   slice_max(indice_medio, n = 1, with_ties = FALSE)
 
-cat("\n========== RESUMO EXECUTIVO ==========")
 cat("\n\nMelhor semana do mês:")
 cat("\n- ", melhor_semana$semana_mes, sep = "")
 cat("\n- Índice médio: ", round(melhor_semana$indice_medio, 1), sep = "")
