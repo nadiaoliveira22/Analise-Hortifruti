@@ -200,6 +200,25 @@ python scripts/01_anonimizar_por_indice.py
 ```
 
 ---
+## Dashboard no Power BI
+
+O projeto inclui um modelo de dashboard desenvolvido no Power BI para acompanhar o comportamento do índice de vendas.
+
+Principais elementos do painel:
+
+- Evolução diária do índice de vendas;
+- Comparação entre os cenários “Efetivado” e “Efetivado + Pendente”;
+- Índice médio por semana do mês;
+- Indicadores de índice médio, maior índice, menor índice e dias analisados.
+
+> O dashboard utiliza dados anonimizados por índice. A base 100 representa a média diária do período, sem exposição de valores financeiros reais.
+
+### Como abrir
+
+1. Baixe o arquivo `powerbi/analise_hortifruti_dashboard.pbit`;
+2. Abra-o no Power BI Desktop;
+3. Quando solicitado, selecione o arquivo público `data/processed/vendas_diarias_indice.csv`.
+---
 
 ## Resultados visuais
 
@@ -220,6 +239,10 @@ python scripts/01_anonimizar_por_indice.py
 ### Projeção sazonal relativa
 
 > ![Projeção Fim de Ano](outputs/figures/indice_por_semana_do_mes.png)
+
+### Power BI
+
+> ![Dashboard Power BI](outputs/dashboard/dashboard_hortifruti_preview.png)
 
 ---
 
