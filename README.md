@@ -99,7 +99,8 @@ analise-hortifruti/
 │
 ├── outputs/
 │   ├── figures/
-│   └── tables/
+│   ├── tables/
+│   └── dashboard/
 │
 ├── docs/
 │   ├── dicionario_de_dados.md
