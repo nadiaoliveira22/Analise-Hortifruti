@@ -203,37 +203,23 @@ python scripts/01_anonimizar_por_indice.py
 
 ## Resultados visuais
 
-> Os gráficos abaixo serão exibidos quando os outputs forem gerados e adicionados ao repositório.
-
 ### Índice por semana do mês
 
-```text
-outputs/figures/indice_por_semana_do_mes.png
-```
+> ![Índice por semana do mês](outputs/figures/indice_por_semana_do_mes.png)
 
 ### Índice por marco do mês
 
-```text
-outputs/figures/indice_por_marco_do_mes.png
-```
+> ![Índice por marco do mês](outputs/figures/indice_por_marco_do_mes.png)
 
 ### Índice por tipo de dia
-
-```text
-outputs/figures/indice_por_tipo_de_dia.png
-```
+> ![Índice por tipo de dia](outputs/figures/indice_por_tipo_de_dia.png)
 
 ### Tendência mensal
-
-```text
-outputs/figures/indice_por_mes.png
-```
+> ![Tendência mensal](outputs/figures/indice_por_mes.png)
 
 ### Projeção sazonal relativa
 
-```text
-outputs/figures/projecao_indice_sazonal.png
-```
+> ![Projeção Fim de Ano](outputs/figures/indice_por_semana_do_mes.png)
 
 ---
 
@@ -244,18 +230,6 @@ outputs/figures/projecao_indice_sazonal.png
 - O índice de vendas não substitui uma análise de quantidade vendida em quilos ou unidades.
 - Não há registro público de estoque, ruptura, descarte, promoções, clima ou eventos locais.
 - Projeções sazonais devem ser atualizadas à medida que novos ciclos de dados se tornam disponíveis.
-
----
-
-## Próximos passos
-
-- [ ] Separar os canais: loja física, WhatsApp, iFood e entrega própria.
-- [ ] Incluir quantidade vendida por quilo ou unidade.
-- [ ] Registrar ruptura de estoque e perdas por perecibilidade.
-- [ ] Criar análise por categoria e produto.
-- [ ] Adicionar dados de promoções, clima e eventos locais.
-- [ ] Construir um dashboard interativo em Power BI ou Shiny.
-- [ ] Automatizar a atualização das tabelas e gráficos.
 
 ---
 
